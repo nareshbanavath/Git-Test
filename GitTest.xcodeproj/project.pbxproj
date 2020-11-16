@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41C7160925624998009371B5 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C7160925624998009371B5 /* GitTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C7160C25624998009371B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C7160E25624998009371B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41C7161025624998009371B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		41C7160A25624998009371B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41C7160925624998009371B5 /* GitTest.app */,
+				41C7160925624998009371B5 /* GitTestDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,7 +88,6 @@
 				FD2D5D67D6059C467D836B02 /* Pods-GitTest.debug.xcconfig */,
 				DA8FE9BE9F11BCE24DCB9437 /* Pods-GitTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,7 +110,7 @@
 			);
 			name = GitTest;
 			productName = GitTest;
-			productReference = 41C7160925624998009371B5 /* GitTest.app */;
+			productReference = 41C7160925624998009371B5 /* GitTestDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -361,8 +360,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cgg.gov.in.GitTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GitTestDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -380,8 +380,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cgg.gov.in.GitTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GitTestDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
